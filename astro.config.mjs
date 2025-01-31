@@ -3,5 +3,5 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-      site: "xlp.netlify.app"
+      site: "https://xlp.netlify.app"
 });
