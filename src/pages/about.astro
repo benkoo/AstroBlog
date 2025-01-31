@@ -21,6 +21,7 @@ const goal = 3;
 const skillColor = "navy";
 const fontWeight = "bold";
 const textCase = "all-cap";
+const number_of_days = 10;
 ---
 
 <html lang="en">
@@ -69,10 +70,10 @@ const textCase = "all-cap";
     {finished && <p>I finished this tutorial!</p>}
 
     {
-      goal === 3 ? (
-        <p>My goal is to finish in 3 days.</p>
+      goal === number_of_days ? (
+        <p>My goal is to finish in {number_of_days} days.</p>
       ) : (
-        <p>My goal is not 3 days.</p>
+        <p>My goal is not {number_of_days} days.</p>
       )
     }
   </body>
