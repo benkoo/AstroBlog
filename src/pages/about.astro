@@ -70,7 +70,7 @@ const number_of_days = 10;
     {finished && <p>I finished this tutorial!</p>}
 
     {
-      goal === number_of_days ? (
+      goal >= number_of_days ? (
         <p>My goal is to finish in {number_of_days} days.</p>
       ) : (
         <p>My goal is not {number_of_days} days.</p>
